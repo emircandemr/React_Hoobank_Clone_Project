@@ -1,11 +1,36 @@
-import './App.css'
+import React from 'react'
+import styles from './style'
+import {Navbar,Hero,Stats,Business,Billing,CardDeal,Testimonial,Clients,CTA,Footer} from './components/'
 
-function App() {
-
+const App = () => {
   return (
-      <div>
-        <h1 className='text-red-500'>Hello</h1>
+    <div className='bg-primary w-full overflow-hidden'>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}> 
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
       </div>
+
+      <div className={`${styles.flexStart}   bg-primary`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero></Hero>
+        </div>
+      </div>
+
+      <div className={`${styles.flexStart} ${styles.paddingX} bg-primary`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats></Stats>
+          <Business></Business>
+          <Billing></Billing>
+          <CardDeal></CardDeal>
+          <Testimonial></Testimonial>
+          <Clients></Clients>
+          <CTA></CTA>
+          <Footer></Footer>
+        </div>
+      </div>
+
+    </div>
   )
 }
 
