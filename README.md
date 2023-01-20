@@ -35,17 +35,6 @@
 <img src="https://user-images.githubusercontent.com/72731296/213801544-a2e98e84-2979-4fb7-a1f1-01ed7969a1c5.png" alt="Image" align='right' width="200">
 </div>
 
-
-<div align="center">
-<h2> Project Video </h2>
-
-[bandicam 2023-01-03 23-26-52-282.webm](https://user-images.githubusercontent.com/72731296/210437165-dd9090fa-2246-4ab1-9e53-35e0f694f02e.webm)
-
-[bandicam 2023-01-03 23-38-33-764.webm](https://user-images.githubusercontent.com/72731296/210438467-4f019b14-fd81-461d-b6a0-b5c9a1cce812.webm)
-
-</div>
-
-
  <div align="center"> 
  <h2> 📫 Contact Address</h2>
 <a href="https://github.com/emircandemr" target="_blank">
