@@ -1,4 +1,4 @@
-# MERN Movie Project
+# Hoobank Clone Project
 
 <div align="center">
 <h3> 🛠️ Built With</h3>
