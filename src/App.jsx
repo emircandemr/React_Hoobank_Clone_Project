@@ -12,14 +12,14 @@ const App = () => {
   }
 
   return (
-    <div className='bg-primary w-full overflow-hidden'>
+    <div className='bg-primary w-full scroll-bar'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}> 
         <div className={`w-full px-16 fixed top-0 z-50 ${scrolling ? 'bg-gray-gradient' : '' } `}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`${styles.flexStart}   bg-primary`}>
+      <div className={`${styles.flexStart} bg-primary`}>
         <div className={`${styles.boxWidth} mt-16 sm:mt-6 `}>
           <Hero></Hero>
         </div>
