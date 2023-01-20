@@ -12,7 +12,7 @@ const App = () => {
   }
 
   return (
-    <div className='bg-primary w-full scroll-bar'>
+    <div className='bg-primary w-full overflow-hidden scroll-bar'>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}> 
         <div className={`w-full px-16 fixed top-0 z-50 ${scrolling ? 'bg-gray-gradient' : '' } `}>
           <Navbar />
